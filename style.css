@@ -260,11 +260,19 @@ body {
 .img_section1 {
     transform: rotate(-15deg);
     width: 100px;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
 
 .img_section2 {
     transform: rotate(15deg);
     width: 115px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
 }
 
 .main_main_main {
@@ -408,11 +416,16 @@ body {
     .img_section1 {
         transition: all 0.7s ease;
         filter: brightness(0%);
+        -webkit-filter: brightness(0%);
 }
 
     .img_section1:hover {
-        transform: rotate(375deg);
+        transform: rotate(-375deg);
         filter: brightness(100%);
+        -webkit-transform: rotate(-375deg);
+        -moz-transform: rotate(-375deg);
+        -ms-transform: rotate(-375deg);
+        -o-transform: rotate(-375deg);
 }
 
     .img_section2 {
@@ -421,7 +434,11 @@ body {
 }
 
     .img_section2:hover {
-        transform: rotate(-375deg);
+        transform: rotate(375deg);
         filter: brightness(100%);
+        -webkit-transform: rotate(375deg);
+        -moz-transform: rotate(375deg);
+        -ms-transform: rotate(375deg);
+        -o-transform: rotate(375deg);
 }
 }
